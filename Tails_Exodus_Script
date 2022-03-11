@@ -1,0 +1,8 @@
+# https://www.youtube.com/watch?v=1aQ7s4FIeB4
+# Script for auto installing Exodus into Tails with your account.
+# It's not a perfect solution but better than nothing. I renamed "exodusBackup" into ".config"
+#!/bin/bash
+dpkg -i Persistent/exodus/exodus.deb
+cp -f -r /home/amnesia/Persistent/exodus/.config /home/amnesia
+chmod -R 777 /home/amnesia/.config
+
