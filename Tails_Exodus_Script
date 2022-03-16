@@ -5,4 +5,3 @@
 dpkg -i /home/amnesia/Persistent/Exodus/exodus.deb
 cp -f -r /home/amnesia/Persistent/Exodus /home/amnesia/.config
 chown -R amnesia:amnesia /home/amnesia/.config/Exodus
-
