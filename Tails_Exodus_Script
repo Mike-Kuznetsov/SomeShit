@@ -1,6 +1,6 @@
-# https://www.youtube.com/watch?v=1aQ7s4FIeB4
+# English: https://www.youtube.com/watch?v=1aQ7s4FIeB4
+# Русский: https://www.youtube.com/c/MautozTech/videos
 # Script for auto installing Exodus into Tails with your account.
-# It's not a perfect solution but better than nothing.
 #!/bin/bash
 dpkg -i /home/amnesia/Persistent/Exodus/exodus.deb
 cp -f -r /home/amnesia/Persistent/Exodus /home/amnesia/.config
