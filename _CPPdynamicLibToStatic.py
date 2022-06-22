@@ -10,7 +10,7 @@ for filename in os.listdir(os.getcwd()):
                     line=line.replace(">",'"');
                     #print(line);
                 result = result+"\n"+line;
-            f.truncate(0); # Clear file
+            f.seek(0); # Write from the first bite of the file not from the last.
+            #print(result);
             f.write(result); # Write new data to file
         f.close();
-               
